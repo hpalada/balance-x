@@ -1,0 +1,30 @@
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xcbkptlist
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+build/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# Credentials — never commit
+**/Info.plist
+*.env
+.env
+.env.local
+
+# Node / receipt-api
+receipt-api/node_modules/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
